@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "my_uint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "new_uint",
+						"type": "uint256"
+					}
+				],
+				"name": "set_my_int",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC 20 Token/abi_array1.sol": "my_contract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC 20 Token/abi_array1.sol": {
+			"keccak256": "0x4c87e481b2d59da24be04bb2bc7aba4bc616ae40aa0a1d3d8ab06324a385b4e2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebf8d1ee700f604088f262fb7bad26a0dc0470c4497d44c5a18b18955ed138be",
+				"dweb:/ipfs/QmdtLHky6viwjDSBTwq2x4GU9r73v3HoT6dNChgfJzayp7"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "total_balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num_deposits",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num_withdrawls",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit_money",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "in_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw_money",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart_wallet/struct_mapping.sol": "struct_mapping"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart_wallet/struct_mapping.sol": {
+			"keccak256": "0x32718fb3f38a49a363945cd2aa235bc2ee5edb4566c1b6e4081ef1a2f73236b6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da84a33a6953490331ecef00022ac16786281d48a30f20e86095b9f1e8f99e0d",
+				"dweb:/ipfs/QmQsG3UJwLiJG61KVmgF9QgBcmtzGD3XwnR3NVzVFhiaZg"
+			]
+		}
+	},
+	"version": 1
+}

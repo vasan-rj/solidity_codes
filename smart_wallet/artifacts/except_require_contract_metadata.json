@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance_recieved",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "recive_money",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint8",
+						"name": "amount",
+						"type": "uint8"
+					}
+				],
+				"name": "withdraw_money",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart_wallet/exception_assert.sol": "except_require_contract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart_wallet/exception_assert.sol": {
+			"keccak256": "0xbe3dc7be16101f52d6671006246ee8f509dcc246c6da7a5c199204e68998eb20",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://edaa80757cea246c302a4fdc452c7962676726bf091d40a26e334e017264161b",
+				"dweb:/ipfs/QmQTYghmzJ9yZdvN76vsh7jzmWgKLVbBFAsVXMw3HxXfLd"
+			]
+		}
+	},
+	"version": 1
+}

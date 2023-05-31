@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "my1_str",
+						"type": "string"
+					}
+				],
+				"name": "cmp_str",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "my_str",
+						"type": "string"
+					}
+				],
+				"name": "str_func",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "str_var",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"basics/strings.sol": "string_contract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"basics/strings.sol": {
+			"keccak256": "0x2a484bb9a8bab6e55e4465bec4cb8c3946a4772376af645bfcfce8d00580afcc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b5110faccad79c30c5810a0e59b37a4d2f7a766c328cb638cfe190a39289d708",
+				"dweb:/ipfs/QmUoWnXoqjcQw7RQD4bvAUWD8ce36eESAfZFfTJ59eqrUa"
+			]
+		}
+	},
+	"version": 1
+}

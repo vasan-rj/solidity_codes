@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "address_balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit_c1",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart_wallet/ex_2contract.sol": "contract_one"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart_wallet/ex_2contract.sol": {
+			"keccak256": "0x47f0344cbe3550204e29f3d94a3849340de2a4003f43ca8fcf6f0d1530a56bf7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1e223bd946a2784974ffcc434b0360be081fe6810598522c70d970edde0c497a",
+				"dweb:/ipfs/QmPqVbs4skNSWiaE8rh4SsJbdLCBQuKrU211tKT6F5zDmw"
+			]
+		}
+	},
+	"version": 1
+}

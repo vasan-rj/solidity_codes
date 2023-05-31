@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "code",
+						"type": "uint256"
+					}
+				],
+				"name": "error_code",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "low_level_data",
+						"type": "bytes"
+					}
+				],
+				"name": "error_log_bytes",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "reason",
+						"type": "string"
+					}
+				],
+				"name": "error_logging",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "catch_error",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart_wallet/try_catch.sol": "Error_handling"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart_wallet/try_catch.sol": {
+			"keccak256": "0xc1ab50af2a82d19cee30068ce181b84ddfd7227d922f161f9de6b48511eed108",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://636cd7e7d4afa68c13df1a27ddb8213ae2e8122e70ab4ccf964f8df06b0b0388",
+				"dweb:/ipfs/QmVqGPxzkLpKuyfv5GMwaGTPMbDiEbcbfu92YPmJWybi5p"
+			]
+		}
+	},
+	"version": 1
+}

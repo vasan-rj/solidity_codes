@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "not_allowed_error",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "dummy_func",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart_wallet/try_catch.sol": "try_catch"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart_wallet/try_catch.sol": {
+			"keccak256": "0xc1ab50af2a82d19cee30068ce181b84ddfd7227d922f161f9de6b48511eed108",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://636cd7e7d4afa68c13df1a27ddb8213ae2e8122e70ab4ccf964f8df06b0b0388",
+				"dweb:/ipfs/QmVqGPxzkLpKuyfv5GMwaGTPMbDiEbcbfu92YPmJWybi5p"
+			]
+		}
+	},
+	"version": 1
+}
